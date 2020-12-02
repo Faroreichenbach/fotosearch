@@ -1,0 +1,65 @@
+.body{
+    margin:0;
+    padding:0;
+}
+
+
+
+/*NavBat*/
+.navbar{
+    background-color: lightgrey;
+    height:10vh;
+}
+
+
+/* Search Component Styles*/
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.search-form{
+    background-image: url('https://images.unsplash.com/photo-1597495529689-45d6da6fcbac?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OTh8fGNvbG9yJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    height: 20vh;
+    padding-top: 70px;
+   
+}
+
+.form-field{
+    margin: auto;
+    width: 70%;
+}
+
+input{
+    margin: auto;
+    height: 40px;
+    width: 70vw;
+    border-radius: 5%;
+    border:none;
+    background-color: lightgray; 
+}
+
+input[type=text] {
+    font-size: large;
+    margin: auto;
+}
+
+
+
+
+.gallery-list{
+    padding:100px;
+
+}
+
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 52px;
+    
+}
